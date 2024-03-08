@@ -13,7 +13,7 @@ function Navbar() {
   const navLinks = [
     { name: "About Us", to: "/about" },
     { name: "Services", to: "/services" },
-    { name: "Therapists", to: "/therapists" },
+    { name: "Our Therapists", to: "/therapists" },
     { name: "Resources", to: "/resources" },
     { name: "FAQ", to: "/FAQs" },
  ];

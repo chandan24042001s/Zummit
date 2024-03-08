@@ -4,9 +4,9 @@ const Footer = () => {
   return (
     <div className="flex flex-col py-11 bg-cyan-600">
       <div className="flex gap-0 items-start self-center mt-5 w-full max-w-[1109px] max-md:flex-wrap max-md:max-w-full">
-        <div className="flex flex-1 justify-center items-center self-start px-16 py-0.5 max-md:px-5 max-md:max-w-full">
+        <div className="flex flex-1 justify-center items-center self-start ">
           <div className="max-w-full w-[729px]">
-            <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
+            <div className="flex gap-5 justify-between max-md:flex-col max-md:gap-0 ">
               <div className="flex flex-col w-[46%] mr-40 max-md:ml-0 max-md:w-full">
                 <img
                   loading="lazy"
@@ -14,22 +14,25 @@ const Footer = () => {
                   className=" w-full  max-md:mt-10"
                 />
               </div>
+              <div className="flex gap-8">
               <div className="flex flex-col ml-5 w-[30%] max-md:ml-0 max-md:w-full">
                 <div className="flex flex-col grow text-lg font-medium text-red-50 whitespace-nowrap max-md:mt-10">
-                  <div className="text-xl font-bold">Abouts us</div>
+                  <div className="text-xl font-bold">About Us</div>
                   <div className="mt-3.5">FAQ</div>
                   <div className="mt-2.5">Terms of use</div>
                   <div className="mt-2.5">Team</div>
                   <div className="mt-2.5">Privacy policy</div>
                 </div>
               </div>
-              <div className="flex flex-col ml-5 w-[27%] max-md:ml-0 max-md:w-full">
+              <div className="flex flex-col ml-5 w-[30%] max-md:ml-0 max-md:w-full">
                 <div className="flex flex-col text-lg font-medium text-red-50 max-md:mt-10">
                   <div className="text-xl font-bold">Contact us</div>
                   <div className="mt-3.5">Around@gmail.com</div>
                   <div className="mt-2.5">+225548411213</div>
                 </div>
               </div>
+              </div>
+              
             </div>
           </div>
         </div>
